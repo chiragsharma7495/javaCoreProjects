@@ -18,9 +18,9 @@ public class LeastRecentlyUsedCache<K , V> extends LinkedHashMap<K , V>  {
     public static void main(String[] args) {
         LeastRecentlyUsedCache<String , Integer> student = new LeastRecentlyUsedCache<>(3);
         student.put("chirag" , 90);
-        student.put("archita" , 98);
-        student.put("arshiya" , 89);
-        student.put("divam" , 90);
+        student.put("daym" , 98);
+        student.put("harry" , 89);
+        student.put("sid" , 90);
 
         System.out.println(student);
     }
