@@ -13,16 +13,20 @@ When the cache exceeds capacity, the least recently used entry is removed.
 
 ### Run
 ```bash
-# compile
-javac LeastRecentlyUsedCache.java
+# compile (creates package folders based on `package ExtraCurricularSmallProjects;`)
+javac -d . LeastRecentlyUsedCache.java
 
 # run
 java ExtraCurricularSmallProjects.LeastRecentlyUsedCache
 ```
 
+### Notes
+- The cache capacity is 3 in `main`, so the oldest entry is evicted after 4 inserts.
+- You can change the capacity or the test data in `main` to see different output.
+
 ### Example output
 ```
-{archita=98, arshiya=89, divam=90}
+{daym=98, harry=89, sid=90}
 ```
 
 ## Future projects
