@@ -29,5 +29,16 @@ java ExtraCurricularSmallProjects.LeastRecentlyUsedCache
 {daym=98, harry=89, sid=90}
 ```
 
+## Project: Network Programming (TCP Reverse Echo)
+A simple TCP client/server example that reverses each line sent from the client.
+
+### What it shows
+- `ServerSocket` and `Socket` basics
+- Line-based I/O with `BufferedReader` and `PrintStream`
+- Simple request/response loop
+
+### Details
+See `NetworkProgramming/README.md` for a full explanation and run steps.
+
 ## Future projects
 - (Add more Java core examples here)
